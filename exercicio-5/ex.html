@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício - 5</title>
+  </head>
+  <body>
+
+    <script>
+      let musicas = [
+        "Alee - Pagão",
+        "Melanie Martinez - POSSESSION",
+        "D$ Luqi - Sublime Nostalgia",
+        "Realidade Cruel - O resgate",
+        "kwn - All This Girls",
+      ];
+
+      document.write("<h2>Minha playlist</h2>");
+
+      for (let i = 0; i < musicas.length; i++) {
+        document.write(i + 1 + ". " + musicas[i] + "<br>");
+      }
+
+      document.write("<p>Total: " + musicas.length + " músicas</p>");
+    </script>
+
+  </body>
+</html>
+
+<!-- Por que o for funciona sem mudar nada?
+- Porque ele utiliza musicas.length para descobrir quantos elementos existem.
+O que acontece quando trocamos < por <=?
+- O código tenta acessar uma posição além do último elemento. 
+Com cinco músicas ele tenta acessar musicas[5] que não existe. 
+Na página aparece uma linha extra: 6. undefined -->

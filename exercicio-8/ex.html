@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício - 8</title>
+  </head>
+  <body>
+
+    <script>
+      let nome = prompt("Qual é o seu nome?");
+
+      let interesses = [];
+
+      let item = prompt("Digite algo que você curte:");
+
+      while (item !== "fim") {
+        interesses.push(item);
+
+        item = prompt("Mais um? (ou fim para parar)");
+      }
+
+      let aprender = prompt("O que você quer aprender a criar?");
+
+      document.write("<h1>" + nome + "</h1>");
+
+      document.write("<p>Total de interesses: " + interesses.length + "</p>");
+
+      if (interesses.length === 0) {
+        document.write("Você não contou nenhum interesse.");
+      } else {
+        document.write("<p>Coisas que eu curto:</p>");
+
+        for (let i = 0; i < interesses.length; i++) {
+          document.write("• " + interesses[i] + "<br>");
+        }
+      }
+
+      document.write("<p>Quero aprender a criar: " + aprender + "</p>");
+    </script>
+
+  </body>
+</html>
+
+<!-- 
+Por que aqui é while e não for?
+- Porque não sabemos antecipadamente quantos interesses a pessoa deseja cadastrar. 
+O while continua repetindo até que ela digite "fim", já o for é mais indicado quando sabemos quantas vezes queremos repetir uma ação. -->

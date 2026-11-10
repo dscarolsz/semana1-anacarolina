@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício - 7</title>
+  </head>
+  <body>
+
+    <script>
+      let opcao = prompt(
+        "Escolha um plano:\n" +
+          "1 - Básico\n" +
+          "2 - Padrão\n" +
+          "3 - Premium\n" +
+          "4 - Família",
+      );
+
+      switch (opcao) {
+        case "1":
+          alert("Básico: R$ 20 por mês");
+          break;
+
+        case "2":
+          alert("Padrão: R$ 35 por mês");
+          break;
+
+        case "3":
+          alert("Premium: R$ 50 por mês");
+          break;
+
+        case "4":
+          alert("Família: R$ 60 por mês");
+          break;
+
+        default:
+          alert("Opção inválida");
+      }
+
+      //se apagarmos o break do case 1, irá aparecer dois alerts pois a linha não foi "interrompida" usando o "break"
+    </script>
+
+  </body>
+</html>
+
+<!-- Para que serve o break? 
+- Para interromper a execução do switch após encontrar a opção correspondente.
+Quando o default aparece? 
+- Quando o que foi digitado não corresponde a nenhuma das opções disponíveis. -->

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício - 2</title>
+  </head>
+  <body>
+
+    <script>
+      let idade = Number(prompt("Quantos anos você tem?"));
+
+      if (idade >= 18) {
+        alert("Você já pode tirar a carteira de motorista.");
+      } else if (idade >= 16) {
+        alert("Você já pode votar, mas ainda não dirigir.");
+      } else {
+        let falta = 18 - idade;
+        alert("Faltam " + falta + " anos para a carteira.");
+      }
+    </script>
+
+  </body>
+</html>
+
+<!-- O que >= significa? 
+ - Maior ou igual a.
+Por que precisamos do Number? 
+- Porque o prompt manda o texto e precisamos transformar esse texto em número para realizar operações.-->

@@ -1,0 +1,18 @@
+1. Qual exercício você mais curtiu? E por quê?
+- Gostei do que envolve as cases, pois eu gosto de tudo que envolva uma lista e achei que foi o mais "organizado" e que me senti mais confortável...
+
+2. De 1 a 5, quanto ficou claro?
+- For e Array: 4 porque infelizmente não acompanhei a maioria deles em aula, mas como eu dei uma estudade depois e compareci as outras aulas, também botamos em prática no meio delas, consegui pegar e no final não são dificeís...
+- If/else: 3 porque na minha cabeça ainda está meio confuso e eu considero a aparência do cógido meio bagunçada KKKKKK
+- Switch: 5, por enquanto é o meu favorito, pois foi o que eu mais me senti confortável realizando e como eu disse, gosto da forma organizada com que ele se parece e até mesmo o código é organizado pra mim.
+
+3. Onde você mais travou? E o que te fez destravar?
+- Tive mais dificuldade em compreender o funcionamento do for junto com o array, principalmente as posições dos elementos e a atualização do contador, na minha cabeça ficou meio confuso... 
+Mas o que me fez destravar foram os exemplos antes dos exercícios e querendo ou não a prática também ajuda bastante, então acredito que consegui compreender mais com esses exercícios.
+As explicações do professor em aula e a IA também me ajudaram bastante!
+
+4. Você usou IA? O que perguntou?
+- Sim. Utilizei IA para entender os exercícios, esclarecer dúvidas sobre os comandos e compreender o passo a passo da construção dos códigos depois de realizá-los, também pedindo para ela me explicar os erros e que me explicasse caso estivesse faltando algo no código, o que davam em erros também... Também perguntei se estava indo bem!
+
+5. O que você sonha criar com programação?
+- Quero desenvolver sites e sistemas úteis, que ajudem pessoas, além de aprofundar meus conhecimentos em programação, organização de dados e bancos de dados trabalhando com a automação, acho muito cativante esse processo de trabalhar com a IA para que isso fique mais fácil e compreensível para mim mesma e para todos.
